@@ -20,7 +20,7 @@ class Solution {
             if(targetSum==root.val) return true;
             else return false;
         }
-
         return hasPathSum(root.left,targetSum-root.val)|| hasPathSum(root.right,targetSum-root.val);
+
     }
 }
