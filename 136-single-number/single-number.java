@@ -4,7 +4,6 @@ class Solution {
         for (int n : nums){
             count ^= n;
         }
-        
         return count;
     }
 }
