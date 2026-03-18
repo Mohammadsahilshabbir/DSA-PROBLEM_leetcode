@@ -14,9 +14,11 @@ class Solution {
         }
 
 
-        if (sumSingle > sumTotal - sumSingle) return true;
-        if (sumDouble > sumTotal - sumDouble) return true;
+        // if (sumSingle > sumTotal - sumSingle) return true;
+        // if (sumDouble > sumTotal - sumDouble) return true;
 
-        return false;
+        // return false;
+        return sumSingle != sumDouble;
+
     }
 }
