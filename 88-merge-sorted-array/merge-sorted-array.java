@@ -13,7 +13,6 @@ class Solution {
         }
         while(i<m){
             c[k++]=nums1[i++];
-
         }while(j<n){
             c[k++]=nums2[j++];
         }
@@ -21,4 +20,5 @@ class Solution {
             nums1[t]=c[t];
         }
     }
+
 }
