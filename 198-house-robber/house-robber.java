@@ -12,5 +12,6 @@ class Solution {
         int nhilootega=loot(i+1,nums);
         // int ans=Math.max(lootega,nhilootega);
         return dp[i]=Math.max(lootega,nhilootega);
+        
     }
 }
